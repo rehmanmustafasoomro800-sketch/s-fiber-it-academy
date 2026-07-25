@@ -210,3 +210,40 @@ section h2{
 .features .course-card{
     min-height:180px;
 }
+.features{
+    padding:70px 10%;
+    background:#111827;
+    text-align:center;
+}
+
+.features h2{
+    color:#38bdf8;
+    margin-bottom:40px;
+}
+
+.feature-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.feature-box{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    transition:.3s;
+    box-shadow:0 0 15px rgba(0,170,255,.2);
+}
+
+.feature-box:hover{
+    transform:translateY(-8px);
+}
+
+.feature-box h3{
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+.feature-box p{
+    color:#ddd;
+}
