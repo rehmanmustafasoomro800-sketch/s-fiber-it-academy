@@ -174,3 +174,17 @@ font-size:28px;
 .course-card .btn:hover{
     background:#0099cc;
 }
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:#00c3ff;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#0099cc;
+}
