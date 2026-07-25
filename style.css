@@ -202,3 +202,11 @@ section h2{
 }
 
 }
+.features{
+    background:#101827;
+    text-align:center;
+}
+
+.features .course-card{
+    min-height:180px;
+}
