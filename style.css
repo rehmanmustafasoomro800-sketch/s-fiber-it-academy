@@ -1,190 +1,204 @@
+/* ==========================
+   S-Fiber Professional Style
+========================== */
+
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 body{
-background:#07152d;
-color:#fff;
-line-height:1.6;
+    font-family:Arial, sans-serif;
+    background:#0b1220;
+    color:#ffffff;
+    line-height:1.6;
 }
 
-.header{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px 10%;
-background:#0b2545;
-position:sticky;
-top:0;
+/* Header */
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#111827;
+    position:sticky;
+    top:0;
+    z-index:1000;
 }
 
 .logo h1{
-color:#00c3ff;
+    color:#00bfff;
+    font-size:38px;
 }
 
-nav a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-font-weight:bold;
+.logo p{
+    font-size:15px;
+    color:#ddd;
 }
 
-nav a:hover{
-color:#00c3ff;
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
 }
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#00bfff;
+}
+
+/* Hero */
 
 .hero{
-text-align:center;
-padding:80px 20px;
-background:linear-gradient(135deg,#0b2545,#123d6b);
+    text-align:center;
+    padding:120px 20px;
+    background:linear-gradient(135deg,#0f172a,#1d4ed8);
 }
 
-.hero h2{
-font-size:40px;
-margin-bottom:20px;
+.hero h1{
+    font-size:52px;
+    margin-bottom:15px;
 }
 
 .hero p{
-font-size:18px;
-margin-bottom:25px;
+    font-size:22px;
+    margin-bottom:30px;
 }
 
 .btn{
-display:inline-block;
-padding:12px 25px;
-background:#00c3ff;
-color:white;
-text-decoration:none;
-border-radius:8px;
-font-weight:bold;
+    display:inline-block;
+    background:#00bfff;
+    color:white;
+    text-decoration:none;
+    padding:12px 30px;
+    border-radius:8px;
+    font-weight:bold;
+    transition:.3s;
 }
 
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-padding:40px;
+.btn:hover{
+    background:#0099cc;
 }
 
-.card{
-background:#102b4e;
-padding:25px;
-border-radius:12px;
-text-align:center;
-transition:0.3s;
-}
-
-.card:hover{
-transform:translateY(-8px);
-}
+/* Sections */
 
 section{
-padding:60px 10%;
+    padding:80px 8%;
 }
 
-footer{
-background:#02101f;
-text-align:center;
-padding:25px;
-margin-top:40px;
-}
-
-@media(max-width:768px){
-.header{
-flex-direction:column;
-}
-
-nav{
-margin-top:15px;
-}
-
-nav a{
-display:block;
-margin:10px 0;
-}
-
-.hero h2{
-font-size:28px;
-}
-}
-/* ==========================
-   IT Courses Section
-========================== */
-
-.courses{
-    padding:80px 10%;
-    background:#0d1117;
+section h2{
     text-align:center;
-}
-
-.courses h2{
-    color:#00c3ff;
-    font-size:36px;
-    margin-bottom:10px;
-}
-
-.courses p{
-    color:#ddd;
+    color:#00bfff;
     margin-bottom:40px;
+    font-size:36px;
 }
+/* Internet Packages */
 
-.course-grid{
+.package-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     gap:25px;
 }
 
+.package-card,
 .course-card{
-    background:#161b22;
+    background:#111827;
+    border-radius:12px;
     padding:25px;
-    border-radius:15px;
+    text-align:center;
     transition:.3s;
-    border:1px solid #00c3ff33;
-    box-shadow:0 0 15px rgba(0,195,255,.15);
+    border:1px solid #1e3a5f;
 }
 
+.package-card:hover,
 .course-card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 0 25px rgba(0,195,255,.45);
+    transform:translateY(-8px);
+    box-shadow:0 0 20px rgba(0,191,255,.35);
 }
 
+.package-card h3,
 .course-card h3{
-    color:#00c3ff;
+    color:#00bfff;
     margin-bottom:15px;
 }
 
+.package-card p,
 .course-card p{
-    color:#ddd;
-    margin-bottom:20px;
+    margin-bottom:15px;
 }
 
-.course-card .btn{
-    display:inline-block;
-    padding:10px 20px;
-    background:#00c3ff;
-    color:#fff;
-    text-decoration:none;
-    border-radius:8px;
-    transition:.3s;
+/* Courses */
+
+.course-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
 }
 
-.course-card .btn:hover{
-    background:#0099cc;
-}
-.btn{
-    display:inline-block;
-    padding:12px 25px;
-    background:#00c3ff;
-    color:white;
-    text-decoration:none;
-    border-radius:8px;
-    font-weight:bold;
-    transition:0.3s;
+/* About */
+
+.about{
+    text-align:center;
 }
 
-.btn:hover{
-    background:#0099cc;
+.about p{
+    max-width:900px;
+    margin:auto;
+    font-size:18px;
+}
+
+/* Contact */
+
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+/* Footer */
+
+footer{
+    background:#111827;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+    gap:15px;
+}
+
+nav ul{
+    flex-direction:column;
+    align-items:center;
+}
+
+.hero h1{
+    font-size:36px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+section h2{
+    font-size:28px;
+}
+
 }
