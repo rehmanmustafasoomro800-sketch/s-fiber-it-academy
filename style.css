@@ -297,3 +297,19 @@ section h2{
 .contact-form button{
     width:100%;
 }
+.footer{
+    background:#020617;
+    color:#fff;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.footer h2{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.footer p{
+    margin:8px 0;
+    color:#cbd5e1;
+}
