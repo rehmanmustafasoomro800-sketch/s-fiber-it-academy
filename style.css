@@ -247,3 +247,53 @@ section h2{
 .feature-box p{
     color:#ddd;
 }
+.contact-section{
+    padding:70px 10%;
+    background:#0f172a;
+}
+
+.contact-section h2{
+    text-align:center;
+    color:#38bdf8;
+    margin-bottom:40px;
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.contact-info,
+.contact-form{
+    background:#1e293b;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,170,255,.2);
+}
+
+.contact-info h3,
+.contact-form h3{
+    color:#38bdf8;
+    margin-bottom:20px;
+}
+
+.contact-info p{
+    color:#ddd;
+    margin:12px 0;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:none;
+    border-radius:8px;
+    background:#0f172a;
+    color:#fff;
+}
+
+.contact-form button{
+    width:100%;
+}
