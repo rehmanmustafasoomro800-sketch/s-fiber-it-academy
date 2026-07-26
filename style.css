@@ -216,3 +216,49 @@ margin-bottom:15px;
 color:#00ffcc;
 margin-bottom:20px;
 }
+/* ===== IT Courses ===== */
+
+.courses{
+padding:100px 8%;
+background:#061425;
+text-align:center;
+}
+
+.courses h2{
+font-size:42px;
+color:#00c3ff;
+margin-bottom:50px;
+}
+
+.course-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+}
+
+.course-card{
+width:320px;
+padding:30px;
+background:rgba(255,255,255,.06);
+border-radius:18px;
+border:1px solid rgba(0,195,255,.30);
+transition:.4s;
+}
+
+.course-card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 25px rgba(0,195,255,.40);
+}
+
+.course-card h3{
+color:#00c3ff;
+margin-bottom:15px;
+font-size:28px;
+}
+
+.course-card p{
+color:#fff;
+margin-bottom:20px;
+line-height:28px;
+}
