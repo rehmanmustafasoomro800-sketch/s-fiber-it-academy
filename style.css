@@ -125,3 +125,42 @@ nav ul{
 }
 
 }
+/* ===== About Section ===== */
+
+.about{
+
+padding:100px 8%;
+background:#07162d;
+
+}
+
+.about-text{
+
+max-width:850px;
+margin:auto;
+text-align:center;
+
+}
+
+.about h2{
+
+font-size:42px;
+color:#00c3ff;
+margin-bottom:20px;
+
+}
+
+.about p{
+
+font-size:18px;
+line-height:32px;
+color:#d8e9ff;
+margin-bottom:20px;
+
+}
+
+.about .btn{
+
+margin-top:15px;
+
+}
