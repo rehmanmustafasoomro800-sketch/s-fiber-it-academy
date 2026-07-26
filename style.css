@@ -476,3 +476,95 @@ resize:none;
 .admission-form button{
 cursor:pointer;
 }
+/* ===== Mobile Responsive ===== */
+
+@media (max-width:768px){
+
+.header{
+    flex-direction:column;
+    gap:15px;
+    padding:15px;
+    text-align:center;
+}
+
+.logo h2{
+    font-size:22px;
+}
+
+.logo p{
+    font-size:13px;
+}
+
+nav{
+    margin-left:0;
+}
+
+nav ul{
+    flex-direction:column;
+    gap:12px;
+    padding:0;
+}
+
+.hero{
+    height:auto;
+    padding:140px 20px 70px;
+}
+
+.hero-content h1{
+    font-size:30px;
+    line-height:1.3;
+}
+
+.hero-content p{
+    font-size:16px;
+    line-height:1.7;
+}
+
+.btn{
+    width:100%;
+    max-width:280px;
+}
+
+.package-card,
+.course-card,
+.why-card,
+.testimonial-card,
+.stat-box{
+    width:100%;
+}
+
+.about,
+.packages,
+.courses,
+.why-us,
+.testimonials,
+.contact,
+.admission{
+    padding:70px 20px;
+}
+
+.about h2,
+.packages h2,
+.courses h2,
+.why-us h2,
+.testimonials h2,
+.contact h2,
+.admission h2{
+    font-size:30px;
+}
+
+.about p,
+.contact p{
+    font-size:16px;
+    line-height:28px;
+}
+
+.admission-form input,
+.admission-form select,
+.admission-form textarea,
+.admission-form button{
+    width:100%;
+    font-size:16px;
+}
+
+}
