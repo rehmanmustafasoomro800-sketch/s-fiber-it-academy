@@ -325,3 +325,18 @@ margin-bottom:10px;
 font-size:18px;
 color:#fff;
 }
+.footer-links{
+    margin-top:20px;
+}
+
+.footer-links a{
+    color:#00c3ff;
+    text-decoration:none;
+    margin:0 10px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color:#ffffff;
+}
