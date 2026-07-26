@@ -26,7 +26,9 @@ gap: 80px;
     color:#d8e9ff;
     font-size:14px;
 }
-
+nav{
+    margin-left:auto;
+}
 nav ul{
     display:flex;
     list-style:none;
